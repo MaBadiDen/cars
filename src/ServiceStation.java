@@ -1,5 +1,6 @@
-public interface ServiceStation {
-    void checkCar(Car car);
-    void checkTruck(Truck truck);
-    void checkBicycle(Bicycle bicycle);
+public class ServiceStation {
+    public static void check(Venichle venichle) {
+        venichle.checkVenichle();
+    }
+
 }

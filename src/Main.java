@@ -8,13 +8,9 @@ public class Main {
 
         Bicycle bicycle = new Bicycle("bicycle1", 2);
         Bicycle bicycle2 = new Bicycle("bicycle2", 2);
+        Venichle bicycle3 = new Bicycle("bicycle", 4);
+        ServiceStation.check(bicycle);
+        ServiceStation.check(truck);
 
-        ServiceStation serviceStationForCars = new ServiceStationForCars();
-        ServiceStation serviceStationForBicycles = new ServiceStationForBicycles();
-        ServiceStation serviceStationForTrucks = new ServiceStationForTrucks();
-
-        serviceStationForTrucks.checkTruck(truck);
-        serviceStationForBicycles.checkBicycle(bicycle);
-        serviceStationForCars.checkCar(car);
     }
 }
